@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Game\Assets\Backgrounds.png" />
+      <Resource Include="Game\Assets\Backgrounds.png" />
+      <None Remove="Game\Assets\Characters.png" />
+      <Resource Include="Game\Assets\Characters.png" />
+      <None Remove="Game\Assets\Miscellaneous.png" />
+      <Resource Include="Game\Assets\Miscellaneous.png" />
+      <None Remove="Game\Assets\Projectiles.png" />
+      <Resource Include="Game\Assets\Projectiles.png" />
+      <None Remove="Game\Assets\Ships.png" />
+      <Resource Include="Game\Assets\Ships.png" />
+      <None Remove="Game\Assets\UI.png" />
+      <Resource Include="Game\Assets\UI.png" />
+      <None Remove="Game\Assets\Liero - Underwater Rock Consumer.mp3" />
+      <Resource Include="Game\Assets\Liero - Underwater Rock Consumer.mp3" />
+    </ItemGroup>
+
+</Project>
